@@ -1,0 +1,40 @@
+{
+  "name": "@ervan0707/test-npm-package",
+  "version": "0.0.0-development",
+  "description": "A basic npm package for GitHub registry",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"No build script specified\"",
+    "semantic-release": "semantic-release",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ervan0707/test-npm-package.git"
+  },
+  "keywords": [
+    "npm",
+    "package",
+    "github",
+    "semantic-release"
+  ],
+  "author": "Ervan <ervanroot@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ervan0707/test-npm-package/issues"
+  },
+  "homepage": "https://github.com/ervan0707/test-npm-package#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^18.4.4",
+    "@commitlint/config-conventional": "^18.4.4",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^9.2.6",
+    "husky": "^8.0.3",
+    "semantic-release": "^22.0.12"
+  }
+}

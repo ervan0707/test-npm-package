@@ -1,0 +1,29 @@
+# Development files
+.git/
+.gitignore
+.DS_Store
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Test files
+test/
+tests/
+*.test.js
+*.spec.js
+
+# Development dependencies
+.eslintrc*
+.prettierrc*
+jest.config.js
+webpack.config.js
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+Thumbs.db

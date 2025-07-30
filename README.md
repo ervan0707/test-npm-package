@@ -66,19 +66,6 @@ For a one-time installation without global configuration:
 npm install @ervan0707/test-npm-package --registry=https://npm.pkg.github.com/
 ```
 
-## Usage
-
-```javascript
-const { greet, add } = require("@ervan0707/test-npm-package");
-
-// Greeting function
-console.log(greet()); // "Hello, World! This is a test npm package from GitHub registry."
-console.log(greet("Alice")); // "Hello, Alice! This is a test npm package from GitHub registry."
-
-// Math function
-console.log(add(2, 3)); // 5
-```
-
 ## Troubleshooting
 
 ### Common Issues

@@ -1,6 +1,6 @@
 {
   "name": "@ervan0707/test-npm-package",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A basic npm package for GitHub registry",
   "main": "index.js",
   "scripts": {

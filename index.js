@@ -3,14 +3,17 @@
  */
 
 
-
 /**
  * Greets a user with a custom message and timestamp
  * @param {string} name - The name to greet
  * @param {boolean} includeTime - Whether to include current time
  * @returns {string} A greeting message
  */
-function greet(name = "World", includeTime = false) {
+
+
+
+
+function greets(name = "World", includeTime = false) {
   const timeStamp = includeTime ? ` at ${new Date().toLocaleTimeString()}` : '';
   return `Hello,, ${name}! This is a test npm package from GitHub registry${timeStamp}.`;
 }

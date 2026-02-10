@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/ervan0707/test-npm-package/compare/v1.0.5...v1.0.6) (2026-02-10)
+
+
+### Bug Fixes
+
+* Update index.js ([2f038a8](https://github.com/ervan0707/test-npm-package/commit/2f038a8a4a88fd9e498ea893781c3fb9bc6f615f))
+
 ## [1.0.5](https://github.com/ervan0707/test-npm-package/compare/v1.0.4...v1.0.5) (2026-02-10)
 
 

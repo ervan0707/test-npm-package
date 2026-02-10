@@ -2,6 +2,8 @@
  * A basic npm package for GitHub registry
  */
 
+
+
 /**
  * Greets a user with a custom message and timestamp
  * @param {string} name - The name to greet

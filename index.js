@@ -43,7 +43,6 @@ function calculate(a, b, operation = 'add') {
 function getPackageInfo(version = '1.0.0') {
   return `GitHub NPM Package - Version: ${version} | Built on: ${new Date().toDateString()}`;
 }
-
 module.exports = {
   greet,
   calculate,

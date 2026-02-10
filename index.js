@@ -13,10 +13,10 @@
 
 
 
-function greets(name = "World", includeTime = false) {
-  const timeStamp = includeTime ? ` at ${new Date().toLocaleTimeString()}` : '';
-  return `Hello,, ${name}! This is a test npm package from GitHub registry${timeStamp}.`;
-}
+// function greets(name = "World", includeTime = false) {
+//   const timeStamp = includeTime ? ` at ${new Date().toLocaleTimeString()}` : '';
+//   return `Hello,, ${name}! This is a test npm package from GitHub registry${timeStamp}.`;
+// }
 
 /**
  * Performs mathematical operations on two numbers

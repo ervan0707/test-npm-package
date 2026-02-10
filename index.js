@@ -12,7 +12,7 @@
  */
 function greet(name = "World", includeTime = false) {
   const timeStamp = includeTime ? ` at ${new Date().toLocaleTimeString()}` : '';
-  return `Hello, ${name}! This is a test npm package from GitHub registry${timeStamp}.`;
+  return `Hello,, ${name}! This is a test npm package from GitHub registry${timeStamp}.`;
 }
 
 /**

@@ -49,5 +49,5 @@ module.exports = {
   calculate,
   getPackageInfo,
   // Keep backward compatibility
-  add: (a, b) => calculate(a, b, 'add')
+  add: (a, b) => calculate(a, b, 'add'),
 };
